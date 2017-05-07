@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="32dp"
+        tools:context="com.nezspencer.loginapp.DetailActivity">
+
+
+    <TextView
+            android:id="@+id/welcome_text"
+            android:textSize="26sp"
+            android:text="Welcome!!!"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/name_label"
+            android:textSize="23sp"
+            android:text="Name:"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_below="@id/welcome_text"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/name"
+            android:textSize="23sp"
+            android:layout_alignBaseline="@+id/name_label"
+            android:layout_toRightOf="@+id/name_label"
+            android:layout_toEndOf="@+id/name_label"
+            android:text="sshdhdd"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/passwrd_label"
+            android:textSize="23sp"
+            android:text="Password:"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_below="@id/name_label"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/passwrd"
+            android:textSize="23sp"
+            android:layout_alignBaseline="@+id/passwrd_label"
+            android:layout_toRightOf="@+id/passwrd_label"
+            android:layout_toEndOf="@+id/passwrd_label"
+            android:text="sshdhdd"
+            android:layout_below="@id/name_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</RelativeLayout>

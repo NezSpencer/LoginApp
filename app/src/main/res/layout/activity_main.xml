@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="32dp"
+        tools:context="com.nezspencer.loginapp.MainActivity">
+
+
+    <EditText android:layout_width="match_parent"
+              android:id="@+id/username_edit"
+              android:hint="Username"
+              android:inputType="text"
+              android:layout_height="wrap_content"/>
+
+    <EditText
+            android:id="@+id/password_edit"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_below="@+id/username_edit"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/login"
+            android:text="Login"
+            android:layout_below="@+id/password_edit"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>
